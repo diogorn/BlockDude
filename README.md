@@ -4,7 +4,7 @@ Jogo em Haskell baseado no das calculadoras TI-84 Plus
 
 #
 
-#### Código para compilar:
+#### Comando para compilar:
 ```
 ghci -i="src" -i="tests" src/Tarefa5_2021li1g083.hs
 ```
