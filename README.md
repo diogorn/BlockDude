@@ -1,28 +1,21 @@
-# Laboratórios de Informática I
+#### Laboratórios de Informática I
+# BlockDude
+Jogo em Haskell baseado no das calculadoras TI-84 Plus
 
-## Repositório
+#
 
-O sistema de controlo de versões utilizado é o git. O repositório encontra-se disponível [nesta organização](https://gitlab.com/uminho-di/li1/2122). Para obter o repositório na sua máquina, garanta que tem a chave pública SSH adicionada na sua conta do GitLab com o email instituicional ([User Settings/SSH Keys](https://gitlab.com/-/profile/keys)), depois basta efetuar clone ao repositório.
-
-```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g083.git
-$ cd 2021li1g083 
+#### Código para compilar:
+```
+ghci -i="src" -i="tests" src/Tarefa5_2021li1g083.hs
 ```
 
-## Testes
-
-O projecto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma.
-
-```bash
-$ ghci -i="src" -i="tests" tests/Tests.hs
->>> runTestsT1 -- Correr os testes tarefa 1
->>> runTestsT2 -- Correr os testes tarefa 2
->>> runTestsT3 -- Correr os testes tarefa 3
->>> runTestsT4 -- Correr os testes tarefa 4
->>> runAllTests -- Correr todos os testes
+  #### Executável:
 ```
+./src/Tarefa5_2021li1g083
+```
+#
 
+#### Créditos:
 ## Grupo 83
-
 - **A98197** Diogo Neto;
 - **A101919** Diogo Afonso;
